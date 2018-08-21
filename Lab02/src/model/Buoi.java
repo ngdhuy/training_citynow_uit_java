@@ -13,9 +13,14 @@ public class Buoi {
     }
 
     public String getTen() {
+        this.setTen();
         return Ten;
     }
 
+    /**
+     *
+     * @param ten is the name of Buoi
+     */
     public void setTen(String ten) {
         Ten = ten;
     }
